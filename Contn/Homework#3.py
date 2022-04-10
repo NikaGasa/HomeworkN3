@@ -43,4 +43,3 @@ cursor.execute('SELECT province_or_territory, land_area FROM density WHERE land_
 area = cursor.fetchmany(3)
 for each in area:
     print(each)
-    
